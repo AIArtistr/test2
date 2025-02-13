@@ -1,0 +1,145 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Netflix Clone
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-black text-white">
+  <!-- Header -->
+  <header class="flex justify-between items-center p-4 bg-black bg-opacity-75 fixed w-full z-10">
+   <div class="flex items-center space-x-4">
+    <img alt="Netflix logo with red text on a black background" class="h-8" height="50" src="https://storage.googleapis.com/a1aa/image/bkwfFyoD027UxtXdya8iohq6jHMeDcQXi-g-apBk5O4.jpg" width="100"/>
+    <nav class="hidden md:flex space-x-4">
+     <a class="hover:text-gray-400" href="#">
+      Home
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      TV Shows
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      Movies
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      New &amp; Popular
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      My List
+     </a>
+    </nav>
+   </div>
+   <div class="flex items-center space-x-4">
+    <i class="fas fa-search hover:text-gray-400 cursor-pointer">
+    </i>
+    <i class="fas fa-bell hover:text-gray-400 cursor-pointer">
+    </i>
+    <img alt="User avatar placeholder image" class="h-8 w-8 rounded-full" height="32" src="https://storage.googleapis.com/a1aa/image/Z4WlMMJaPi_aVI3SY9f9KI7rKJOmsC2cCchSUg3MzNI.jpg" width="32"/>
+   </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="relative h-screen flex items-center justify-center">
+   <img alt="Hero image placeholder with dark background and white text" class="absolute inset-0 w-full h-full object-cover opacity-50" height="1080" src="https://storage.googleapis.com/a1aa/image/ShTiGCz2YjLrGB2DIyXsdFJZxcCBA5d6n2BIo1LhFWo.jpg" width="1920"/>
+   <div class="relative z-10 text-center">
+    <h1 class="text-5xl md:text-7xl font-bold mb-4">
+     Featured Movie
+    </h1>
+    <p class="text-lg md:text-2xl mb-6">
+     Watch the latest blockbuster now
+    </p>
+    <button class="bg-red-600 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-red-700">
+     Play
+    </button>
+   </div>
+  </section>
+  <!-- Content Section -->
+  <section class="mt-8 px-4 md:px-8">
+   <h2 class="text-2xl md:text-3xl font-bold mb-4">
+    Trending Now
+   </h2>
+   <div class="flex space-x-4 overflow-x-scroll pb-4">
+    <img alt="Movie 1 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/_H3x8bOROJNAnNQjMKoT2f3UY6gGrMS0AJl7emu--EA.jpg" width="300"/>
+    <img alt="Movie 2 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/OteOhEcMffjUa5jn5at_M023WQ_2dt_GWpYsuvkwLHM.jpg" width="300"/>
+    <img alt="Movie 3 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/BAVf9kOSih6E2NEnifEBTSRf5qLoB3IoNe2SmmMllJ8.jpg" width="300"/>
+    <img alt="Movie 4 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/jGNBCdQVyDio9imahhiqhiHNakFZQ3DRwsPpKrFlRcA.jpg" width="300"/>
+    <img alt="Movie 5 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/4DTdzIALW8iKYBMjMWu255hVv_z7MYggJ1018zdPM8w.jpg" width="300"/>
+   </div>
+  </section>
+  <section class="mt-8 px-4 md:px-8">
+   <h2 class="text-2xl md:text-3xl font-bold mb-4">
+    Popular on Netflix
+   </h2>
+   <div class="flex space-x-4 overflow-x-scroll pb-4">
+    <img alt="Show 1 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/s70s2SLy47md5LVNXUzVhVWKGnT5hVbysybJ6tloVQ0.jpg" width="300"/>
+    <img alt="Show 2 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/E7GGIt0UrB_ucxuNRxqKauV4R7jjSGCHKVvluhYdKLs.jpg" width="300"/>
+    <img alt="Show 3 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/wFO5TLJZagI5793-RG4YpPq6GAFv191pc4O9Gdgi93A.jpg" width="300"/>
+    <img alt="Show 4 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/t5gWlHcqgouN1D-eOlagyZK43KrCqbW8mMw8cGrY4As.jpg" width="300"/>
+    <img alt="Show 5 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/6bIrONwu053k96rR0wFk2RzYlH7h29TDeMqX8wN4chM.jpg" width="300"/>
+   </div>
+  </section>
+  <section class="mt-8 px-4 md:px-8">
+   <h2 class="text-2xl md:text-3xl font-bold mb-4">
+    New Releases
+   </h2>
+   <div class="flex space-x-4 overflow-x-scroll pb-4">
+    <img alt="New release 1 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/_kH7RuHfBBgNZFitSJhB4vWoizxw8WPgcayuvce1Zes.jpg" width="300"/>
+    <img alt="New release 2 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/fsRpZQhhWL5eDQw623K7Sq8WinNIk-_VHHs2vl9rXYM.jpg" width="300"/>
+    <img alt="New release 3 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/zAT6IFa57w_fVbauKbMkfOQdXjmMSONcwiWmqgitcf4.jpg" width="300"/>
+    <img alt="New release 4 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/jI4HAvtur3qZMiPnl_f5nxClGmZ9hfy3vWQREbhvsyw.jpg" width="300"/>
+    <img alt="New release 5 placeholder image with dark background and white text" class="w-64 h-40 object-cover rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/O6mwLbyD3hSgsv3WE1zTCmgpR_AVE-tjbXz0OxxpqDI.jpg" width="300"/>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="mt-8 px-4 md:px-8 py-4 bg-black bg-opacity-75">
+   <div class="flex flex-col md:flex-row justify-between items-center">
+    <div class="flex space-x-4 mb-4 md:mb-0">
+     <a class="hover:text-gray-400" href="#">
+      Audio and Subtitles
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      Help Center
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      Gift Cards
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      Media Center
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      Investor Relations
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      Jobs
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      Terms of Use
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      Privacy
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      Legal Notices
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      Corporate Information
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      Contact Us
+     </a>
+    </div>
+    <div class="text-gray-400">
+     © 2023 Netflix Clone
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
